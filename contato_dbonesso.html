@@ -22,18 +22,21 @@
         <a href="contato.html">Contato</a>
     </nav>
 
-    <div class="container">
-        <h2>Diego Bonesso</h2>
-        <p>Sou uma pessoa apaixonada por aprender e por trabalhar com a criatividade. Tenho como hobbies o jiu-jitsu,
-            muay thai e estou ansioso para aprender a surfar. Atualmente, sou Lead Developer na ADP Brazil Labs, onde
-            lidero projetos de arquitetura de dados para grandes soluções empresariais.Com uma sólida experiência em
-            engenharia de dados
-            e um Mestrado em Sensoriamento Remoto - Reconhecimento de Padrões, estou sempre em busca de novas formas de
-            aplicar machine
-            learning e IA para impulsionar inovações informadas por dados. Minhas principais competências incluem
-            TensorFlow, Pandas e Pytest,
-            e estou em constante aprimoramento profissional, explorando novas tecnologias e técnicas.</p>
-    </div>
+    <section id="contact">
+        <h2>Contato</h2>
+        <form action="mailto:diego.bonesso@42i.ai" method="post" enctype="text/plain">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+    
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
 
 </body>
 
